@@ -16,13 +16,16 @@ namespace Correcaoprova
                 int quantidade;
                 double valorProduto, valorTotal;
 
-                Console.WriteLine("Digite o nome do produto");
+                Console.WriteLine("***********Exercicio 4 - Avaliação 1 *************");
+                Console.WriteLine();
+
+                Console.Write("Digite o nome do produto: ");
                 nomeProduto = Console.ReadLine();
 
-                Console.WriteLine("Digite o valor do produto: ");
+                Console.Write("Digite o valor do produto: ");
                 valorProduto = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("Digite a quantidade :");
+                Console.Write("Digite a quantidade :");
                 quantidade = Convert.ToInt32(Console.ReadLine());
 
                 valorTotal = quantidade * valorProduto;
@@ -37,10 +40,10 @@ namespace Correcaoprova
             catch (Exception)
             {
                 Console.Clear();
-                Console.Write("Dgite corretamente");
+                Console.Write("Digite corretamente");
             }
             Console.ReadKey();
             }
         }
     }
-}
+
